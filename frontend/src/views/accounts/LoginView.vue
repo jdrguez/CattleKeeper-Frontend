@@ -7,7 +7,7 @@ import { RouterLink } from 'vue-router'
 const username = ref('')
 const password = ref('')
 const router = useRouter()
-const backendUrl = 'http://127.0.0.1:8000'
+const backendUrl = 'https://cattlekeeper-backend-production.up.railway.app'
 const auth = inject<{ isLoggedIn: boolean }>('auth')!
 import { useToast } from 'vue-toastification';
 
