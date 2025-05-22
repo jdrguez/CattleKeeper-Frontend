@@ -66,7 +66,7 @@ const email = ref('')
 const password = ref('')
 const router = useRouter()
 
-const backendUrl = 'https://cattlekeeper-backend-production.up.railway.app/'
+const backendUrl = 'https://cattlekeeper-backend-production.up.railway.app'
 import { useToast } from 'vue-toastification';
 
 const toast = useToast()
